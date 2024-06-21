@@ -7,8 +7,7 @@ function App() {
   return (
     <div>
       <Header /> {/* Muestra el componente Header */}
-      <Main /> {/* Muestra el componente Mail */}
-      {/* Contenido de tu aplicación */}
+      <Main /> {/* Contenido de tu aplicación*/}
       <Footer /> {/* Muestra el componente Footer */}
     </div>
   );
