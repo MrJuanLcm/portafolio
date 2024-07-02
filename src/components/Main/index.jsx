@@ -1,4 +1,5 @@
 import React from "react";
+import imgProject from "../../assets/placeholder.svg";
 import "./styles.css";
 
 function Main() {
@@ -36,7 +37,7 @@ function Main() {
                     <path d="M3 7l9 6l9 -6" />
                   </svg>
 
-                  <span className="text-black">john.doe@example.com</span>
+                  <span className="text-black">juanluislcm@gmail.com</span>
                 </li>
                 <li class="flex items-center gap-2">
                   <svg
@@ -53,7 +54,7 @@ function Main() {
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                   </svg>
-                  <span className="text-black">+58 177-8808</span>
+                  <span className="text-black">+58 424-1778808</span>
                 </li>
                 <li class="flex items-center gap-2">
                   <svg
@@ -85,7 +86,7 @@ function Main() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src={imgProject}
                 alt="Project 1"
                 width={600}
                 height={400}
@@ -98,25 +99,25 @@ function Main() {
                   Node.js, and MongoDB.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold   w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold          text-foreground">
+                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                     React
                   </div>
-                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold   w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold          text-foreground">
+                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                     Node.js
                   </div>
-                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold   w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold          text-foreground">
+                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                     MongoDB
                   </div>
                 </div>
                 <div className="flex justify-center gap-2 mt-4">
                   <a
                     href="http://#"
-                    className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow  hover:bg-primary/90 focus-visible:inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold       focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                    className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                     Live Site
                   </a>
                   <a
                     href="http://#"
-                    className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm  hover:bg-accent hover:text-accent-foreground focus-visible:inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold       focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                    className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                     Source Code
                   </a>
                 </div>
@@ -124,7 +125,7 @@ function Main() {
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src={imgProject}
                 alt="Project 2"
                 width={600}
                 height={400}
@@ -137,26 +138,26 @@ function Main() {
                   TypeScript, and Prisma.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold   w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold          text-foreground">
+                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                     Next.js
                   </div>
-                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold   w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold          text-foreground">
+                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                     TypeScript
                   </div>
-                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold   w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold          text-foreground">
+                  <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
                     Prisma
                   </div>
                 </div>
                 <div className="flex justify-center gap-2 mt-4">
                   <a
                     href="http#"
-                    className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow  hover:bg-primary/90 focus-visible:inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold       focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}>
                     Live Site
                   </a>
                   <a
                     href="http#"
-                    className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm  hover:bg-accent hover:text-accent-foreground focus-visible:inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold       focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}>
                     Source Code
                   </a>
@@ -165,11 +166,11 @@ function Main() {
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src={imgProject}
                 alt="Project 3"
                 width={600}
                 height={400}
-                className="w-full h-48 object-cover"
+                className="imgProjects w-full h-48 object-cover"
               />
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Project 3</h3>
@@ -191,13 +192,13 @@ function Main() {
                 <div className="flex justify-center gap-2 mt-4">
                   <a
                     href="http://#"
-                    className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow  hover:bg-primary/90 focus-visible:inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold       focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}>
                     Live Site
                   </a>
                   <a
                     href="http://#"
-                    className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm  hover:bg-accent hover:text-accent-foreground focus-visible:inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold       focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}>
                     Source Code
                   </a>

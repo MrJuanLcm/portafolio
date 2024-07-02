@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 import "./styles.css";
 
 function Header() {
@@ -21,30 +20,28 @@ function Header() {
         </div>
         <div>
           <nav>
-            <Router>
-              <ul className="flex gap-4">
-                <li>
-                  <Link to="/about" className="text-white">
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-white">
-                    Projects
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-white">
-                    Skills
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-white">
-                    Experience
-                  </Link>
-                </li>
-              </ul>
-            </Router>
+            <ul className="flex gap-4">
+              <li>
+                <a href="#about" className="text-white">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#projects" className="text-white">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="#skills" className="text-white">
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a href="#experience" className="text-white">
+                  Experience
+                </a>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>

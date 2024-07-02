@@ -1,15 +1,3 @@
-/* .img_header {
-    border-radius: 100%;
-    height: 100%;
-    width: 100%;
-}
-
-.img_container {
-    height: 5rem;
-    width: 5rem;
-    padding: .5rem .7rem;
-} */
-
 blockquote,
 dd,
 dl,
@@ -29,12 +17,6 @@ pre {
 .text-gray-400 {
     color: rgb(156 163 175);
 }
-
-/* header {
-    background-color: rgb(17 24 39);
-    max-width: 100%;
-    max-height: 25dvh;
-} */
 
 .bg-gray-900 {
 
@@ -85,26 +67,6 @@ video {
     vertical-align: middle;
 }
 
-/* .div_nav {
-    width: 20rem;
-} */
-
-/* li {
-    padding: 0rem .5rem;
-    color: white;
-
-} */
-
-
-/* ul {
-    list-style-type: none;
-    display: flex;
-    gap: .2rem;
-    text-decoration: none;
-} */
-
-
-
 .user_description {
     display: flex;
     flex-direction: row;
@@ -120,7 +82,6 @@ video {
 .flex-col {
     flex-direction: column;
 }
-
 
 .gap-8 {
     gap: 2rem;
@@ -181,9 +142,6 @@ a {
     }
 }
 
-.rounded-full {
-    border-radius: 9999px;
-}
 
 .overflow-hidden {
     overflow: hidden;
