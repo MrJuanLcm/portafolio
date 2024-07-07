@@ -176,7 +176,7 @@ function Main() {
                 <h3 className="text-xl font-bold mb-2">Project 3</h3>
                 <p className="text-gray-500 mb-4">
                   A real-time chat application built with Socket.IO, Express,
-                  and Vue.js.
+                  Node.js end React.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <div className="inline-flex w-fit items-center whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold w-fit text-foreground">
@@ -191,13 +191,13 @@ function Main() {
                 </div>
                 <div className="flex justify-center gap-2 mt-4">
                   <a
-                    href="http://#"
+                    href="https://frondend-eizm.onrender.com/"
                     className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}>
                     Live Site
                   </a>
                   <a
-                    href="http://#"
+                    href="https://github.com/MrJuanLcm/real-time-chat-application"
                     className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}>
                     Source Code
@@ -301,7 +301,7 @@ function Main() {
                 <polyline points="16 18 22 12 16 6"></polyline>
                 <polyline points="8 6 2 12 8 18"></polyline>
               </svg>
-              <span className="text-gray-500">MongoDB</span>
+              <span className="text-gray-500">Python</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <svg
@@ -355,7 +355,7 @@ function Main() {
                 <polyline points="16 18 22 12 16 6"></polyline>
                 <polyline points="8 6 2 12 8 18"></polyline>
               </svg>
-              <span className="text-gray-500">Docker</span>
+              <span className="text-gray-500">Angular</span>
             </div>
           </div>
         </div>
@@ -366,25 +366,85 @@ function Main() {
           <h2 className="text-3xl font-bold mb-8">My Experience</h2>
           <div className="grid grid-cols-1-e md:grid-cols-2-e gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-2">Full-Stack Developer</h3>
-              <p className="text-gray-500 mb-2">Acme Inc. | 2018 - Present</p>
+              <h3 className="text-xl font-bold mb-2">Back-End Developer</h3>
+              <p className="text-gray-500 mb-2">
+                Proyectos y Desarrollos ISARQ C.A. | 2023 - Present
+              </p>
               <p className="text-gray-500 leading-relaxed">
-                As a full-stack developer at Acme Inc., I was responsible for
-                building and maintaining complex web applications using the
-                latest technologies. I collaborated with cross-functional teams
-                to design, develop, and deploy scalable and user-friendly
-                solutions.
+                Registro administrativo de usuario:<br></br>
+                Empresa:{" "}
+                <a href="https://inces.gob.ve" target="_blank" rel="noreferrer">
+                  <b>INCES.</b>
+                </a>
+                <br></br>Es una aplicación web de registro administrativo que
+                permite realizar un registro de usuario, cursos y
+                administrativo, en este proyecto trabajé en la parte del backend
+                y utilice Python 3.10.0 y PostgreSQL.
               </p>
             </div>
+
             <div>
               <h3 className="text-xl font-bold mb-2">Front-End Developer</h3>
-              <p className="text-gray-500 mb-2">XYZ Corp. | 2015 - 2018</p>
+              <p className="text-gray-500 mb-2">
+                Emsys-Solutions C.A. | 2021 - 2023
+              </p>
               <p className="text-gray-500 leading-relaxed">
-                At XYZ Corp., I worked as a front-end developer, focusing on
-                building responsive and visually appealing user interfaces using
-                HTML, CSS, and JavaScript. I also collaborated with back-end
-                developers to integrate the front-end with the server-side
-                logic.
+                Dashboard:<br></br>
+                Empresa:{" "}
+                <a
+                  href="https://www.grupocobeca.com/"
+                  target="_blank"
+                  rel="noreferrer">
+                  <b>Grupo Cobeca.</b>
+                </a>
+                <br></br>
+                Esta es una aplicación web de un tablero con mucha información
+                que nos permite realizar consultas detalladas para la revisión
+                de las ventas generales de la empresa durante años, en este
+                proyecto trabajé en la parte frontend y usé Angular.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-2">Full-Stack Developer</h3>
+              <p className="text-gray-500 mb-2">
+                Proyectos y Desarrollos ISARQ C.A. | 2018 - 2021
+              </p>
+              <p className="text-gray-500 leading-relaxed">
+                Home Banking:<br></br>
+                Empresa:{" "}
+                <a
+                  href="https://www.bicentenariobu.com.ve/"
+                  target="_blank"
+                  rel="noreferrer">
+                  <b>Banco Bicentenario.</b>
+                </a>
+                <br></br>
+                Esta es una aplicación web de home banking que permite ejecutar
+                transferencias, pagos y muchas opciones más, en este proyecto
+                trabajé en el frontend y backend donde utilice AngularJs, Python
+                con el web server Tornado, base de datos Oracle y Redis.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-2">Back-End Developer</h3>
+              <p className="text-gray-500 mb-2">
+                Emsys-Solutions C.A. | 2021 - 2023
+              </p>
+              <p className="text-gray-500 leading-relaxed">
+                Home Banking:<br></br>
+                Empresa:{" "}
+                <a
+                  href="https://nodusbank.com/"
+                  target="_blank"
+                  rel="noreferrer">
+                  <b>NODUSBank.</b>
+                </a>
+                <br></br>
+                Esta es una aplicación web de home banking que permite realizar
+                transferencias, pagos y muchas opciones más, en este proyecto
+                trabajé en la parte del backend y utilice NodeJs.
               </p>
             </div>
           </div>
