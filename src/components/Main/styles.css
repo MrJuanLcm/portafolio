@@ -3,13 +3,6 @@
 }
 
 
-
-
-
-
-
-
-
 menu,
 ol,
 ul {
@@ -17,10 +10,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-
-
-
-
 
 
 /* Projects */
@@ -218,23 +207,6 @@ ul {
     transition-duration: 150ms;
 }
 
-/* * {
-    --border: 240 5.9% 90%;
-    border-color: hsl(var(--border));
-} */
-
-
-
-
-
-
-
-
-
-
-
-/* Skills */
-
 .w-8 {
     width: 2rem;
 }
@@ -257,84 +229,9 @@ ul {
     gap: 1.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .text-foreground {
     color: hsl(240 10% 3.9%);
 }
-
-.imgProjects {
-    width: 600;
-    height: 400;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .mt-4 {
     margin-top: 1rem;
@@ -371,20 +268,4 @@ ul {
 
 .bg-background {
     background-color: hsl(0 0% 100%)
-}
-
-
-
-
-
-/* Experience */
-
-.grid-cols-1-e {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-@media (min-width: 768px) {
-    .md\:grid-cols-2-e {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
 }
