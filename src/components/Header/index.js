@@ -1,4 +1,5 @@
 import React from "react";
+import imgProfile from "../../assets/imgProfile.jpg";
 import "./styles.css";
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
           <span className="relative flex shrink-0 overflow-hidden rounded-full h-16 w-16 md:h-20 md:w-20">
             <img
               className="aspect-square h-full w-full"
-              src="/placeholder-user.jpg"
+              src={imgProfile}
               alt="Foto del usuario"
             />
           </span>
