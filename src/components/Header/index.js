@@ -2,7 +2,7 @@ import React from "react";
 import imgProfile from "../../assets/imgProfile.jpg";
 import "./styles.css";
 
-function Header() {
+export default function Header() {
   return (
     <header className="bg-gray-900 text-white py-8 px-4 md:px-6">
       <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
@@ -49,5 +49,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
