@@ -18,27 +18,14 @@ pre {
     color: rgb(156 163 175);
 }
 
-.bg-gray-900 {
-
-    background-color: rgb(17 24 39);
-}
-
 .text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
 }
 
-.font-bold {
-    font-weight: 700;
-}
-
 .py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
-
-.w-full {
-    width: 100%;
 }
 
 .h-full {
@@ -67,36 +54,6 @@ video {
     vertical-align: middle;
 }
 
-.user_description {
-    display: flex;
-    flex-direction: row;
-}
-
-.user_name_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.flex-col {
-    flex-direction: column;
-}
-
-.gap-8 {
-    gap: 2rem;
-}
-
-.grid {
-    display: grid;
-}
-
-@media (min-width: 768px) {
-    .md\:grid-cols-2 {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
 @media (min-width: 768px) {
     .md\:flex-row {
         flex-direction: row;
@@ -104,32 +61,7 @@ video {
 }
 
 
-@media (min-width: 768px) {
-    .md\:py-16 {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
-}
 
-@media (min-width: 768px) {
-    .md\:px-6 {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .md\:justify-between {
-        justify-content: space-between;
-    }
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-/* imagen del usuario */
 @media (min-width: 768px) {
     .md\:w-20 {
         width: 5rem;
@@ -140,10 +72,6 @@ a {
     .md\:h-20 {
         height: 5rem;
     }
-}
-
-.overflow-hidden {
-    overflow: hidden;
 }
 
 .shrink-0 {
