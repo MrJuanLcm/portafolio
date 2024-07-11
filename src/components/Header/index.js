@@ -16,29 +16,29 @@ export default function Header() {
           </span>
           <div>
             <h1 className="text-2xl font-bold">Juan Lacruz</h1>
-            <p className="text-gray-400">Full-Stack Developer</p>
+            <p className="subtitle text-gray-400">Full-Stack Developer</p>
           </div>
         </div>
         <div>
-          <nav>
+          <nav className="mt-4 md:mt-0">
             <ul className="flex gap-4">
               <li>
-                <a href="#about" className="text-white">
+                <a href="#about" className="hover:underline md:a">
                   About
                 </a>
               </li>
               <li>
-                <a href="#projects" className="text-white">
+                <a href="#projects" className="hover:underline md:a">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#skills" className="text-white">
+                <a href="#skills" className="hover:underline md:a">
                   Skills
                 </a>
               </li>
               <li>
-                <a href="#experience" className="text-white">
+                <a href="#experience" className="hover:underline md:a">
                   Experience
                 </a>
               </li>
