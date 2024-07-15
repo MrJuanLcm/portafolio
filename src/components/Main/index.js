@@ -23,7 +23,7 @@ export default function Main() {
                 <li className="flex items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-gray-500"
+                    className="h-5 w-5 text-gray-500"
                     width="20"
                     height="20"
                     viewBox="0 0 24 24"
@@ -37,14 +37,12 @@ export default function Main() {
                     <path d="M3 7l9 6l9 -6" />
                   </svg>
 
-                  <span className="text-black md:span">
-                    juanluislcm@gmail.com
-                  </span>
+                  <span className="md:span">juanluislcm@gmail.com</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-gray-500"
+                    className="h-5 w-5 text-gray-500"
                     width="20"
                     height="20"
                     viewBox="0 0 24 24"
@@ -61,7 +59,7 @@ export default function Main() {
                 <li className="flex items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-gray-500"
+                    className="h-5 w-5 text-gray-500"
                     width="20"
                     height="20"
                     viewBox="0 0 24 24"
