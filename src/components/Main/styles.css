@@ -19,7 +19,7 @@ ul {
     padding-bottom: 3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width : 768px) {
     .md\:py-16 {
         padding-top: 4rem;
         padding-bottom: 4rem;
@@ -43,7 +43,7 @@ ul {
     grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-@media (min-width: 768px) {
+@media (min-width : 768px) {
     .md\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -167,7 +167,7 @@ ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-@media (min-width: 768px) {
+@media (min-width : 768px) {
     .md\:grid-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
