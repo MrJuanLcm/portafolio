@@ -23,22 +23,22 @@ export default function Header() {
           <nav className="mt-4 md:mt-0">
             <ul className="flex gap-4">
               <li>
-                <a href="#about" className="hover:underline md:a">
+                <a href="#about" className="hover:underline">
                   About
                 </a>
               </li>
               <li>
-                <a href="#projects" className="hover:underline md:a">
+                <a href="#projects" className="hover:underline">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#skills" className="hover:underline md:a">
+                <a href="#skills" className="hover:underline">
                   Skills
                 </a>
               </li>
               <li>
-                <a href="#experience" className="hover:underline md:a">
+                <a href="#experience" className="hover:underline">
                   Experience
                 </a>
               </li>

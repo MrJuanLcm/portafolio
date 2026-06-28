@@ -12,7 +12,7 @@ body {
 }
 
 .min-h-\[100dvh\] {
-    min-height: -10dvh;
+    min-height: 100dvh;
 }
 
 .mx-auto {
@@ -97,4 +97,62 @@ a {
     .container {
         max-width: 1400px;
     }
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.w-5 {
+    width: 1.25rem;
+}
+
+.h-5 {
+    height: 1.25rem;
+}
+
+.space-y-2 > * + * {
+    margin-top: 0.5rem;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.hover\:bg-primary\/90:hover {
+    background-color: hsl(240 5.9% 20%);
+}
+
+.hover\:bg-accent:hover {
+    background-color: hsl(240 4.8% 95.9%);
+}
+
+.hover\:text-accent-foreground:hover {
+    color: hsl(240 5.9% 10%);
+}
+
+.focus-visible\:outline-none:focus-visible {
+    outline: none;
+}
+
+.focus-visible\:ring-1:focus-visible {
+    --ring-offset-shadow: 0 0 0 0 #fff;
+    --ring-shadow: 0 0 0 1px hsl(240 5.9% 10%);
+    box-shadow: var(--ring-offset-shadow, 0 0 #0000), var(--ring-shadow, 0 0 #0000), var(--shadow, 0 0 #0000);
+}
+
+.disabled\:pointer-events-none:disabled {
+    pointer-events: none;
+}
+
+.disabled\:opacity-50:disabled {
+    opacity: 0.5;
 }
